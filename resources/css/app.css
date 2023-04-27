@@ -10,12 +10,12 @@
         bottom: 27px;
     }
 }
-@media screen and (min-width:390px) and (max-width:800px){
+/* @media screen and (min-width:390px) and (max-width:800px){
     .body{
         position: relative;
         top: 30px;
     }
-}
+} */
 
 /* @media screen and (min-width:801px) and (max-width:920px){
     .body{

@@ -28,7 +28,7 @@
     <!-- slide-container -->
     <div class="flex items-center justify-center">
       <!-- slide-content -->
-      <div class="slide-content w-[300px] overflow-hidden">
+      <div class="slide-content w-[300px] max-sm:w-[250px] overflow-hidden">
           <div class="card-wrapper  swiper-wrapper ">
             <!-- card -->
             <div class="rounded-3xl swiper-slide">
@@ -62,12 +62,33 @@
                     <div class="flex items-center py-[10px] px-[5px] gap-4">
                       <img src="./images/duree.png" alt="">
                       <strong>Durée :</strong>
-                      <p>6 heures</p>
+                      <p>12 heures</p>
                     </div>
                     <div class="flex items-center py-[10px] px-[5px] gap-4">
                       <img src="./images/prix.png" alt="">
                       <strong>Prix :</strong>
-                      <p>300 FCFA</p>
+                      <p>500 FCFA</p>
+                    </div>
+                  </div>
+                  <a href="" class="flex items-center py-[10px] px-[5px] bg-[#0047AB] justify-center rounded-b-25 cursor-pointer hover:bg-blue-600 hover:transition-all duration-300 ease-in-out"><span class="text-white">Souscrire</span></a>
+                </div>
+            </div>
+            <div class="rounded-3xl swiper-slide">
+              <!-- card-image -->
+                <div class="flex flex-col items-center py-[18px] px-[5px] bg-[#D9D9D9] rounded-t-25">
+                  <p class="">Internet</p>
+                </div>
+                <div class="bg-white rounded-b-25">
+                  <div class="flex flex-col items-center">
+                    <div class="flex items-center py-[10px] px-[5px] gap-4">
+                      <img src="./images/duree.png" alt="">
+                      <strong>Durée :</strong>
+                      <p>48 heures</p>
+                    </div>
+                    <div class="flex items-center py-[10px] px-[5px] gap-4">
+                      <img src="./images/prix.png" alt="">
+                      <strong>Prix :</strong>
+                      <p>1000 FCFA</p>
                     </div>
                   </div>
                   <a href="" class="flex items-center py-[10px] px-[5px] bg-[#0047AB] justify-center rounded-b-25 cursor-pointer hover:bg-blue-600 hover:transition-all duration-300 ease-in-out"><span class="text-white">Souscrire</span></a>
