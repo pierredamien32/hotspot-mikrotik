@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Login </title>
   @vite('resources/css/app.css')
   
 </head>
@@ -12,7 +13,7 @@
         <img src="{{asset('images/logo-anyx 1.png')}}" alt="" class="max-sm:w-44 w-56">
         <h1 class="text-center max-sm:text-3xl text-4xl font-sans">Login</h1>
       </div>
-      <form action="" method="post" class="flex flex-col justify-center items-center gap-5 mt-10">
+      <form action="{{url('/status')}}"  class="flex flex-col justify-center items-center gap-5 mt-10">
         <div class="flex items-center relative right-2">
           <img src="{{asset('images/username.png')}}" alt="" class="relative left-8 w-5">
           <input type="text" placeholder="Username" class="bg-white rounded-15 py-3 px-12 w-full focus:outline-none focus:ring-2 focus:ring-blue-500 ease-in-out transition-colors duration-500">
@@ -26,8 +27,9 @@
         </div>
       </form>
     </div>
+    <a href="{{url('/')}}" class="mt-8 font-semibold text-blue-600">voir nos offres </a>
     <!-- debut de mon footer -->
-  <p class="text-gray-500 mt-10">Powered by AnyxTech</p>
+  <p class="text-gray-500 mt-8">Powered by AnyxTech</p>
   <!-- fin de mon footer -->
 </body>
 </html>

@@ -36,7 +36,7 @@ var swiper = new Swiper(".slide-content", {
   slidesPerGroup: 1,
   loop: true,
   loopFillGroupWithBlank: true,
-  grabCursor: 'true',
+  // grabCursor: 'true',
   keyboard: {
     enabled: true,
   },

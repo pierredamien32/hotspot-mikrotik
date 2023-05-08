@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> AnyxTech </title>
+  <title> Hotspot AnyxTech </title>
   @vite('resources/css/app.css')
   @vite('resources/css/swiper-bundle.min.css')
   @vite('resources/js/swiper-bundle.min.js')
@@ -24,14 +24,14 @@
 
       <!-- la div qui prend en compte tout le swiper -->
   
-    <div class=" flex items-center justify-center mt-[92px] body">
+    <div class=" flex items-center justify-center mt-[72px] body">
     <!-- slide-container -->
     <div class="flex items-center justify-center">
       <!-- slide-content -->
-      <div class="slide-content w-[300px] max-sm:w-[250px] overflow-hidden">
-          <div class="card-wrapper  swiper-wrapper ">
+      <div class="slide-content w-[300px] max-sm:w-[250px] overflow-hidden ">
+          <div class="card-wrapper  swiper-wrapper  rounded-25">
             <!-- card -->
-            <div class="rounded-3xl swiper-slide">
+            <div class="rounded-3xl swiper-slide cursor-pointer">
               <!-- card-image -->
                 <div class="flex flex-col items-center py-[18px] px-[14px] bg-[#D9D9D9] rounded-t-25">
                   <p class="">Internet</p>
@@ -52,7 +52,7 @@
                   <a href="" class="flex items-center py-[10px] px-[14px] bg-[#0047AB] justify-center rounded-b-25 cursor-pointer hover:bg-blue-600 hover:transition-all duration-300 ease-in-out"><span class="text-white">Souscrire</span></a>
                 </div>
             </div>
-            <div class="rounded-3xl swiper-slide">
+            <div class="rounded-3xl swiper-slide cursor-pointer">
               <!-- card-image -->
                 <div class="flex flex-col items-center py-[18px] px-[5px] bg-[#D9D9D9] rounded-t-25">
                   <p class="">Internet</p>
@@ -73,7 +73,7 @@
                   <a href="" class="flex items-center py-[10px] px-[5px] bg-[#0047AB] justify-center rounded-b-25 cursor-pointer hover:bg-blue-600 hover:transition-all duration-300 ease-in-out"><span class="text-white">Souscrire</span></a>
                 </div>
             </div>
-            <div class="rounded-3xl swiper-slide">
+            <div class="rounded-3xl swiper-slide cursor-pointer">
               <!-- card-image -->
                 <div class="flex flex-col items-center py-[18px] px-[5px] bg-[#D9D9D9] rounded-t-25">
                   <p class="">Internet</p>
