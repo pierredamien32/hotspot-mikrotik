@@ -12,10 +12,10 @@
         <div class="">
             <div class="flex flex-col gap-8 mb-10">
                 <h1 class="text-center">Hi, trial user!</h1>
-                <h1 class="text-center">Hi, username!</h1>  
+                <h1 class="text-center">Hi, !</h1>  
             </div>             
 
-            <form action="{{url('/login')}}"  class="">
+            <form action="{{url('/login')}}" method=""  class="">
                 <div class="flex flex-col gap-2 mt-2">
                     <div class="flex gap-20 max-w-[520px] mx-6">
                         <strong>IP address</strong>
@@ -54,15 +54,21 @@
                 <div class="flex flex-col gap-2 mt-2 ">
                     <div class="flex gap-12 max-w-[520px] mx-6">
                         <strong>Status refresh</strong>
-                        <p>refrech</p>
+                        <p>refresh</p>
                     </div>
                     <!-- <hr class="border-gray-500 border"> -->
                 </div>
                 <div class="flex justify-center items-center cursor-pointer mt-4 ">
                     <button type="submit" class="bg-[#0047AB] text-white py-2 px-[152px] max-sm:px-[120px] rounded-lg duration-300 hover:bg-blue-600">Log out</button>
                 </div>
+                
             </form>
+            <!-- @foreach ($response as $item)
+                <p>{{ $item['name'] }}</p>
+            @endforeach -->
+
         </div>
+       
     </div>
 </body>
 </html>

@@ -13,8 +13,8 @@
 
   <!-- debut de ma navbar -->
   <nav class="flex items-center w-full py-2 px-16 justify-between max-sm:px-6">
-    <a href="{{url('/')}}"><img src="{{asset('images/logo-anyx 1.png')}}" alt="" class="max-sm:w-44 w-56"></a>
-    <a href="{{url('/login')}}" class="bg-gradient-to-r from-[#3BBCCEF7] to-[#1D4C9FF7] text-white py-2 px-6 rounded-20 max-sm:px-3 max-sm:text-sm duration-500 hover:bg-gradient-to-r hover:to-[#3BBCCEF7] hover:from-[#1D4C9FF7] ">Se connecter</a>
+    <a href="{{ route('welcome') }}"><img src="{{asset('images/logo-anyx 1.png')}}" alt="" class="max-sm:w-44 w-56"></a>
+    <a href="{{ route('login.create') }}" class="bg-gradient-to-r from-[#3BBCCEF7] to-[#1D4C9FF7] text-white py-2 px-6 rounded-20 max-sm:px-3 max-sm:text-sm duration-500 hover:bg-gradient-to-r hover:to-[#3BBCCEF7] hover:from-[#1D4C9FF7] ">Se connecter</a>
   </nav>
   <!-- fin de ma navbar -->
 
